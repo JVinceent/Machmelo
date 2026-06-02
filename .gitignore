@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Database (keep schema, ignore live db and backups)
+db/melody_match.db
+db/backups/
+db/*.bak
+
+# Dataset (large file, don't commit)
+dataset.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
